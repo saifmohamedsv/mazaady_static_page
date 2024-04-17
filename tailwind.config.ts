@@ -5,9 +5,19 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
+      height: {
+        "body-height": "var(--body-height)",
+      },
+      colors: {
+        primary: "rgb(var(--primary))",
+        secondary: "rgb(var(--secondary))",
+        "secondary-foreground": "rgb(var(--secondary-foreground))",
+        grey: "rgb(var(--grey))",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
