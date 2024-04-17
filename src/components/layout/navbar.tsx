@@ -1,12 +1,12 @@
 "use client";
 import LogoWhite from "@/assets/logo.svg";
+import { ButtonWithIcon, Divider, UserAvatar } from "@/components/common";
+import { Container, NavLink } from "@/components/layout";
 import { PlusCircledIcon } from "@radix-ui/react-icons";
 import clsx from "clsx";
 import { BellIcon, GlobeIcon, MenuIcon, SearchIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { Container, Divider, NavLink, UserAvatar } from ".";
-import { ButtonWithIcon } from "../common/button-with-icon";
 
 interface NavbarProps {}
 
