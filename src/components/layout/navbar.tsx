@@ -17,7 +17,6 @@ const DesktopNav = () => (
     <BellIcon className="mx-2" />
     <Divider />
     <UserAvatar />
-    <Divider />
     <ButtonWithIcon title={"Add new product"} icon={PlusCircledIcon} />
     <div className="ml-4 flex items-center gap-2">
       <GlobeIcon />
